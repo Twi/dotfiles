@@ -1,8 +1,10 @@
 set t_Co=256
 
+" Vundle cruft
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" Bundles I use
 Bundle 'gmarik/vundle'
 Bundle 'bling/vim-airline'
 Bundle 'mattn/webapi-vim'
@@ -18,7 +20,6 @@ Bundle 'chilicuil/vim-sprunge'
 
 " Color scheme
 colorscheme twilight256
-
 syntax on
 filetype plugin indent on
 
