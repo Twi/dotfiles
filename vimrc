@@ -17,6 +17,7 @@ Bundle 'tmhedberg/SimpylFold'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'scrooloose/nerdtree'
 Bundle 'chilicuil/vim-sprunge'
+Bundle 'tpope/timl'
 
 " Color scheme
 colorscheme twilight256
