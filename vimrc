@@ -1,23 +1,29 @@
 set t_Co=256
 
-" Vundle cruft
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" Bundles I use
-Bundle 'gmarik/vundle'
-Bundle 'bling/vim-airline'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'kien/rainbow_parentheses.vim'
-"Bundle 'vim-scripts/Conque-Shell'
-Bundle 'tmhedberg/SimpylFold'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'scrooloose/nerdtree'
-Bundle 'chilicuil/vim-sprunge'
-Bundle 'tpope/timl'
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Plugins I use
+Plugin 'gmarik/vundle'
+Plugin 'bling/vim-airline'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'kien/rainbow_parentheses.vim'
+"Plugin 'vim-scripts/Conque-Shell'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'scrooloose/nerdtree'
+Plugin 'chilicuil/vim-sprunge'
+Plugin 'tpope/timl'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " Color scheme
 colorscheme twilight256
